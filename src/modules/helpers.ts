@@ -1,20 +1,21 @@
 import * as os from "os";
 import { readFile } from "./filesystem";
 import { getData } from "./http";
-import { API_URL, ALTERNATIVE_API_URL, BANNER, USER_RULES } from "./config";
+import { API_URL, ALTERNATIVE_API_URL, USER_RULES } from "./config";
 
-export function hitAntiDdos(value: string | null) {
-    if(value === null) {
-        return false;
-    }
-
-    return (/^<!DOCTYPE.*>/gi).test(value.trim());
+export function hitAntiDdos(value: string | null): boolean {
+    return value !== null && /^<!DOCTYPE.*>/gi.test(value.trim());
 }
 
-export async function getList(path: string | null, keepCurrent: boolean) {
-    let data = await getData(`${API_URL}/list`);
+export async function getList(
+    path: string | null,
+    keepCurrent: boolean,
+    eol: string = "\n",
+    isWorkspaceRoot: boolean = false,
+): Promise<Array<{ label: string; picked: boolean }> | null> {
+    let data: string | null = await getData(`${API_URL}/list`);
 
-    if(hitAntiDdos(data)) {
+    if (hitAntiDdos(data)) {
         data = await getData(`${ALTERNATIVE_API_URL}/list`);
     }
 
@@ -22,41 +23,32 @@ export async function getList(path: string | null, keepCurrent: boolean) {
         return null;
     }
 
-    const selectedItems = getSelectedItems(path, keepCurrent);
-
-    const items = data.split(/[,\n\r]+/).map(item => ({
+    const selectedItems = getSelectedItems(path, keepCurrent, eol, isWorkspaceRoot);
+    const items = data.split(new RegExp(`[${eol},]+`)).map(item => ({
         label: item,
-        picked: selectedItems.indexOf(item) !== -1,
+        picked: selectedItems.includes(item),
     }));
 
-    items.pop();
+    if (items.length > 0 && items[items.length - 1].label === "") {
+        items.pop();
+    }
 
-    items.sort((a, b) => {
-        if (a.picked) {
-            return -1;
-        } else if (b.picked) {
-            return 1;
-        }
-
-        return 0;
-    });
+    items.sort((a, b) => (a.picked ? -1 : b.picked ? 1 : 0));
 
     return items;
 }
 
-export function getOs() {
-    const systems = {
+export function getOs(): string | null {
+    const systems: { [key: string]: string } = {
         darwin: "macos",
         linux: "linux",
         win32: "windows",
     };
 
-    const system = systems[os.platform()];
-
-    return system ? system : null;
+    return systems[os.platform()] || null;
 }
 
-export function getCurrentItems(path: string) {
+export function getCurrentItems(path: string, eol: string = "\n"): string[] {
     const file = readFile(path);
 
     if (file === null) {
@@ -69,7 +61,7 @@ export function getCurrentItems(path: string) {
     return result && result[1] ? result[1].split(",") : [];
 }
 
-export function getUserRules(filePath) {
+export function getUserRules(filePath: string, eol: string = "\n"): string | null {
     const file = readFile(filePath);
 
     if (file === null) {
@@ -78,35 +70,36 @@ export function getUserRules(filePath) {
 
     const result = file.split(USER_RULES)[1];
 
-    console.log(result);
-
     return result ? result.trim() : null;
 }
 
 export function getSelectedItems(
     filePath: string | null,
-    keepCurrent: boolean
-) {
-    const selected = [];
+    keepCurrent: boolean,
+    eol: string = "\n",
+    isWorkspaceRoot: boolean = false
+): string[] {
+    const selected: string[] = [];
 
-    if (!keepCurrent) {
-        selected.push("visualstudiocode", getOs());
+    if (!keepCurrent && isWorkspaceRoot) {
+        selected.push("visualstudiocode", getOs() || "");
     }
-
     if (keepCurrent && filePath) {
-        selected.push(...getCurrentItems(filePath));
+        selected.push(...getCurrentItems(filePath, eol));
     }
 
     return selected.filter(item => !!item);
 }
 
-export function generateFile(path: string, output: string, override: boolean) {
-    output = `# ${BANNER}\n${output}\n# ${USER_RULES}\n`;
+export function generateFile(path: string, output: string, override: boolean, eol: string = "\n"): string {
+    output = `${output}${eol}#${USER_RULES}`;
 
     if (!override) {
-        const userRules = getUserRules(path);
-        output += userRules ? `\n${userRules}` : "";
+        const userRules = getUserRules(path, eol);
+        if (userRules) {
+            output += `${eol}${userRules}`;
+        }
     }
 
-    return `${output}\n`;
+    return `${output}${eol}`;
 }

@@ -1,59 +1,68 @@
 {
-    "name": "vscode-gitignore-generator",
-    "displayName": ".gitignore Generator",
-    "description": "Generate .gitignore file using gitignore.io API",
-    "version": "1.0.3",
-    "publisher": "piotrpalarz",
-    "license": "SEE LICENSE IN LICENSE",
-    "engines": {
-        "vscode": "^1.22.0"
-    },
-    "categories": [
-        "SCM Providers"
+  "name": "vscode-clean-gitignore-generator",
+  "displayName": "Clean .gitignore Generator",
+  "description": "Command and context menu to generate .gitignore",
+  "version": "2.0.0",
+  "publisher": "dadahsueh",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "SCM Providers"
+  ],
+  "keywords": [
+    "git",
+    "gitignore",
+    "gitignore.io",
+    "gitignore generator"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#373737",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dadahsueh/vscode-clean-gitignore-generator.git"
+  },
+  "homepage": "https://github.com/dadahsueh/vscode-clean-gitignore-generator",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.generateGitignore",
+        "title": "Generate .gitignore",
+        "category": "Generator"
+      }
     ],
-    "keywords": [
-        "git",
-        "gitignore",
-        "gitignore.io",
-        "gitignore generator"
-    ],
-    "icon": "images/icon.png",
-    "galleryBanner": {
-        "color": "#373737",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/piotrpalarz/vscode-gitignore-generator.git"
-    },
-    "homepage": "https://github.com/piotrpalarz/vscode-gitignore-generator",
-    "bugs": {
-        "url": "https://github.com/piotrpalarz/vscode-gitignore-generator/issues"
-    },
-    "activationEvents": [
-        "onCommand:extension.gitignoreGenerate"
-    ],
-    "main": "./out/extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.gitignoreGenerate",
-                "title": "Generate .gitignore File"
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "npm run compile && node ./node_modules/vscode/bin/test"
-    },
-    "devDependencies": {
-        "@types/mocha": "^2.2.42",
-        "@types/node": "^7.0.43",
-        "tslint": "^5.8.0",
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6"
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "extension.generateGitignore",
+          "group": "Generator@1"
+        }
+      ]
     }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.94.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.10.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.3",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
 }

@@ -1,26 +1,28 @@
 import * as http from "https";
-import { parse as parseUrl } from "url";
 
-export function httpGet(url: string) {
-    const { protocol, hostname, path } = parseUrl(url);
+export function httpGet(url: string): Promise<string> {
+    const parsedUrl = new URL(url);
 
     return new Promise((resolve, reject) => {
         let data = "";
 
-        http
-            .get({ protocol, hostname, path }, res => {
-                res.on("data", chunk => (data += chunk));
-                res.on("end", () => resolve(data));
-                res.on("close", () => reject());
-            })
-            .on("error", () => reject());
+        http.get(parsedUrl, res => {
+            if (res.statusCode !== 200) {
+                res.resume();
+                return reject(new Error(`Request failed. Status Code: ${res.statusCode}`));
+            }
+
+            res.on("data", chunk => (data += chunk));
+            res.on("end", () => resolve(data));
+        }).on("error", err => reject(new Error(`Network error: ${err.message}`)));
     });
 }
 
-export async function getData(url: string) {
+export async function getData(url: string): Promise<string | null> {
     try {
-        return Promise.resolve(await httpGet(url));
-    } catch (e) {
-        return Promise.resolve(null);
+        return await httpGet(url);
+    } catch (e: unknown) {
+        console.error(`Error fetching data: ${e instanceof Error ? e.message : e}`);
+        return null;
     }
 }
