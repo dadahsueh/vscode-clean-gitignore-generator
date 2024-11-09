@@ -24,9 +24,9 @@ export default class Generator {
 
         if (currentUri) {
             this.filePath = await this.getFilePath(currentUri);
-            const folderUri = currentUri.with({ path: path.dirname(currentUri.path) });
-            const folderPath = folderUri.fsPath;
-            this.isWorkspaceRoot = workspaceUri?.fsPath === folderPath;
+
+            const folderUri = currentUri.with({ path: path.dirname(currentUri.fsPath) });
+            this.isWorkspaceRoot = workspaceUri?.fsPath === folderUri.fsPath;
         }
 
         if (this.filePath) {
@@ -34,7 +34,6 @@ export default class Generator {
         }
 
         this.eol = this.getEolPreference();
-
         this.selected = await this.getSelectedOptions() || [];
         await this.generate();
     }
@@ -46,35 +45,35 @@ export default class Generator {
 
     private async get(fn: Function, ...args: any[]): Promise<any> {
         const result = await fn.apply(this, args);
-
         if (result === undefined) {
             this.abort();
         }
-
         return result;
     }
 
     private async getFilePath(uri: Uri): Promise<string | null> {
         const stats = await workspace.fs.stat(uri);
         if (stats.type === FileType.Directory) {
-            return path.join(uri.path, FILE_NAME);
+            return path.join(uri.fsPath, FILE_NAME);
         } else {
-            const folderUri = uri.with({ path: path.dirname(uri.path) });
-            const folderPath = folderUri.fsPath;
-
-            return path.join(folderPath, FILE_NAME);
+            const folderUri = uri.with({ path: path.dirname(uri.fsPath) });
+            return path.join(folderUri.fsPath, FILE_NAME);
         }
     }
 
     private async getOverrideOption(): Promise<boolean> {
-        return this.filePath && fileExists(this.filePath)
-            ? await this.get(getOverrideOption)
-            : true;
+        try {
+            return this.filePath && fileExists(this.filePath)
+                ? await this.get(getOverrideOption)
+                : true;
+        } catch (error) {
+            console.error("Error checking override option:", error);
+            return true;
+        }
     }
 
     private async getSelectedOptions(): Promise<string[]> {
         const message = window.setStatusBarMessage(MESSAGES.fetching);
-
         const list = await getList(this.filePath, !this.override, this.eol, this.isWorkspaceRoot);
         message.dispose();
 
@@ -96,7 +95,6 @@ export default class Generator {
         }
 
         let data = await getData(`${API_URL}/${this.selected.join(",")}`);
-
         if (hitAntiDdos(data)) {
             data = await getData(`${ALTERNATIVE_API_URL}/${this.selected.join(",")}`);
         }
@@ -108,24 +106,22 @@ export default class Generator {
         }
 
         const output = generateFile(this.filePath as string, data, this.override)
-            .replace(/\r?\n/g, this.eol);
+            .split(/\r?\n/g)
+            .join(this.eol);
 
         if (this.filePath) {
             const result = writeFile(this.filePath, output);
-
             if (result === false) {
                 message.dispose();
                 window.showErrorMessage(MESSAGES.save_error);
                 this.abort();
             }
-
             openFile(this.filePath);
         } else {
             openUntitledFile(output);
         }
 
         message.dispose();
-
         window.setStatusBarMessage(
             MESSAGES.generated.replace(
                 "[action]",
