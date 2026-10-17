@@ -1,0 +1,105 @@
+{
+  "name": "clean-gitignore-generator",
+  "displayName": "Clean GitIgnore Generator",
+  "description": "Generate and manage .gitignore files from GitHub with section toggling and custom rules preservation.",
+  "version": "1.0.0",
+  "publisher": "dadahsueh",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "SCM Providers",
+    "Other"
+  ],
+  "keywords": [
+    "gitignore",
+    "git",
+    "ignore",
+    "clean-gitignore",
+    "github"
+  ],
+  "icon": "images/icon-256.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dadahsueh/vscode-clean-gitignore-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dadahsueh/vscode-clean-gitignore-generator/issues"
+  },
+  "homepage": "https://github.com/dadahsueh/vscode-clean-gitignore-generator#readme",
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cleanGitignore.generate",
+        "title": "Generate .gitignore",
+        "category": "Clean GitIgnore"
+      },
+      {
+        "command": "cleanGitignore.refreshCache",
+        "title": "Refresh Template Cache",
+        "category": "Clean GitIgnore"
+      },
+      {
+        "command": "cleanGitignore.signIn",
+        "title": "Sign in with GitHub",
+        "category": "Clean GitIgnore"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "cleanGitignore.generate",
+          "group": "EditorConfig@2"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Clean GitIgnore Generator",
+      "properties": {
+        "cleanGitignore.cacheTTLHours": {
+          "type": "number",
+          "default": 24,
+          "minimum": 1,
+          "description": "How often to refresh the gitignore template cache (in hours)."
+        },
+        "cleanGitignore.githubToken": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null,
+          "description": "Optional GitHub Personal Access Token for increased API rate limits (fallback if VS Code authentication is not used)."
+        },
+        "cleanGitignore.autoSelectDefaults": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically pre-select VisualStudioCode and the current operating system template on fresh .gitignore files."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "npm run check-types && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "npm run check-types && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "check-types": "tsc --noEmit",
+    "pretest": "npm run compile-tests && npm run compile",
+    "test": "node out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^20.17.0",
+    "@types/vscode": "^1.85.0",
+    "esbuild": "^0.24.2",
+    "mocha": "^10.7.3",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.6.3"
+  }
+}

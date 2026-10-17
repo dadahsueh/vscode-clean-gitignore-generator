@@ -1,0 +1,1601 @@
+[
+  {
+    "name": "Actionscript",
+    "path": "Actionscript.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Ada",
+    "path": "Ada.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "AdventureGameStudio",
+    "path": "AdventureGameStudio.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Agda",
+    "path": "Agda.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Android",
+    "path": "Android.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Angular",
+    "path": "Angular.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "AppEngine",
+    "path": "AppEngine.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "AppceleratorTitanium",
+    "path": "AppceleratorTitanium.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ArchLinuxPackages",
+    "path": "ArchLinuxPackages.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Autotools",
+    "path": "Autotools.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Ballerina",
+    "path": "Ballerina.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "C++",
+    "path": "C++.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "C",
+    "path": "C.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "CFWheels",
+    "path": "CFWheels.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "CMake",
+    "path": "CMake.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "CUDA",
+    "path": "CUDA.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "CakePHP",
+    "path": "CakePHP.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ChefCookbook",
+    "path": "ChefCookbook.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Clojure",
+    "path": "Clojure.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "CodeIgniter",
+    "path": "CodeIgniter.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "CommonLisp",
+    "path": "CommonLisp.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Composer",
+    "path": "Composer.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Concrete5",
+    "path": "Concrete5.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Coq",
+    "path": "Coq.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "CraftCMS",
+    "path": "CraftCMS.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "D",
+    "path": "D.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "DM",
+    "path": "DM.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Dart",
+    "path": "Dart.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Delphi",
+    "path": "Delphi.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Deno",
+    "path": "Deno.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Dotnet",
+    "path": "Dotnet.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Drupal",
+    "path": "Drupal.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "EPiServer",
+    "path": "EPiServer.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Eagle",
+    "path": "Eagle.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Elisp",
+    "path": "Elisp.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Elixir",
+    "path": "Elixir.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Elm",
+    "path": "Elm.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Erlang",
+    "path": "Erlang.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ExpressionEngine",
+    "path": "ExpressionEngine.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ExtJs",
+    "path": "ExtJs.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Fancy",
+    "path": "Fancy.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Finale",
+    "path": "Finale.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Firebase",
+    "path": "Firebase.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "FlaxEngine",
+    "path": "FlaxEngine.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Flutter",
+    "path": "Flutter.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ForceDotCom",
+    "path": "ForceDotCom.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Fortran",
+    "path": "Fortran.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "FuelPHP",
+    "path": "FuelPHP.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "GWT",
+    "path": "GWT.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Gcov",
+    "path": "Gcov.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "GitBook",
+    "path": "GitBook.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "GitHubPages",
+    "path": "GitHubPages.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Gleam",
+    "path": "Gleam.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "AL",
+    "path": "Global/AL.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Agents",
+    "path": "Global/Agents.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Anjuta",
+    "path": "Global/Anjuta.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Ansible",
+    "path": "Global/Ansible.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Archives",
+    "path": "Global/Archives.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Backup",
+    "path": "Global/Backup.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Bazaar",
+    "path": "Global/Bazaar.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "BricxCC",
+    "path": "Global/BricxCC.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "CVS",
+    "path": "Global/CVS.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Calabash",
+    "path": "Global/Calabash.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Cloud9",
+    "path": "Global/Cloud9.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "CodeKit",
+    "path": "Global/CodeKit.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Cursor",
+    "path": "Global/Cursor.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "DartEditor",
+    "path": "Global/DartEditor.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Diff",
+    "path": "Global/Diff.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Dreamweaver",
+    "path": "Global/Dreamweaver.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Dropbox",
+    "path": "Global/Dropbox.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Eclipse",
+    "path": "Global/Eclipse.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "EiffelStudio",
+    "path": "Global/EiffelStudio.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Emacs",
+    "path": "Global/Emacs.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Ensime",
+    "path": "Global/Ensime.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Espresso",
+    "path": "Global/Espresso.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "FlexBuilder",
+    "path": "Global/FlexBuilder.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "GPG",
+    "path": "Global/GPG.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Images",
+    "path": "Global/Images.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "JDeveloper",
+    "path": "Global/JDeveloper.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "JEnv",
+    "path": "Global/JEnv.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "JetBrains",
+    "path": "Global/JetBrains.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "KDevelop4",
+    "path": "Global/KDevelop4.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Kate",
+    "path": "Global/Kate.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Lazarus",
+    "path": "Global/Lazarus.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Lefthook",
+    "path": "Global/Lefthook.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "LibreOffice",
+    "path": "Global/LibreOffice.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Linux",
+    "path": "Global/Linux.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "LyX",
+    "path": "Global/LyX.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "MATLAB",
+    "path": "Global/MATLAB.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Mercurial",
+    "path": "Global/Mercurial.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Metals",
+    "path": "Global/Metals.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "MicrosoftOffice",
+    "path": "Global/MicrosoftOffice.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Momentics",
+    "path": "Global/Momentics.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "MonoDevelop",
+    "path": "Global/MonoDevelop.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "NetBeans",
+    "path": "Global/NetBeans.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Ninja",
+    "path": "Global/Ninja.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "NotepadPP",
+    "path": "Global/NotepadPP.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Octave",
+    "path": "Global/Octave.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "OhMyOpenAgent",
+    "path": "Global/OhMyOpenAgent.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Otto",
+    "path": "Global/Otto.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "PSoCCreator",
+    "path": "Global/PSoCCreator.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Patch",
+    "path": "Global/Patch.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "PlatformIO",
+    "path": "Global/PlatformIO.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "PuTTY",
+    "path": "Global/PuTTY.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Redcar",
+    "path": "Global/Redcar.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Redis",
+    "path": "Global/Redis.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "SBT",
+    "path": "Global/SBT.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "STM32CubeIDE",
+    "path": "Global/STM32CubeIDE.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "SVN",
+    "path": "Global/SVN.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "SlickEdit",
+    "path": "Global/SlickEdit.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Stata",
+    "path": "Global/Stata.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "SublimeText",
+    "path": "Global/SublimeText.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Syncthing",
+    "path": "Global/Syncthing.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "SynopsysVCS",
+    "path": "Global/SynopsysVCS.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Tags",
+    "path": "Global/Tags.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "TextMate",
+    "path": "Global/TextMate.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "TortoiseGit",
+    "path": "Global/TortoiseGit.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Vagrant",
+    "path": "Global/Vagrant.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Vim",
+    "path": "Global/Vim.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "VirtualEnv",
+    "path": "Global/VirtualEnv.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Virtuoso",
+    "path": "Global/Virtuoso.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "VisualStudioCode",
+    "path": "Global/VisualStudioCode.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "WebMethods",
+    "path": "Global/WebMethods.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Windows",
+    "path": "Global/Windows.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Xcode",
+    "path": "Global/Xcode.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "XilinxISE",
+    "path": "Global/XilinxISE.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Zed",
+    "path": "Global/Zed.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "macOS",
+    "path": "Global/macOS.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "mise",
+    "path": "Global/mise.gitignore",
+    "category": "global"
+  },
+  {
+    "name": "Go",
+    "path": "Go.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Godot",
+    "path": "Godot.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Gradle",
+    "path": "Gradle.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Grails",
+    "path": "Grails.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "HIP",
+    "path": "HIP.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Haskell",
+    "path": "Haskell.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Haxe",
+    "path": "Haxe.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "IAR",
+    "path": "IAR.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "IGORPro",
+    "path": "IGORPro.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Idris",
+    "path": "Idris.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "JBoss",
+    "path": "JBoss.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "JENKINS_HOME",
+    "path": "JENKINS_HOME.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Java",
+    "path": "Java.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Jekyll",
+    "path": "Jekyll.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Joomla",
+    "path": "Joomla.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Julia",
+    "path": "Julia.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Katalon",
+    "path": "Katalon.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "KiCad",
+    "path": "KiCad.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Kohana",
+    "path": "Kohana.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Kotlin",
+    "path": "Kotlin.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "LabVIEW",
+    "path": "LabVIEW.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "LangChain",
+    "path": "LangChain.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Laravel",
+    "path": "Laravel.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Lasal",
+    "path": "Lasal.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Lean",
+    "path": "Lean.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Leiningen",
+    "path": "Leiningen.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "LemonStand",
+    "path": "LemonStand.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Lilypond",
+    "path": "Lilypond.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Lithium",
+    "path": "Lithium.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Lua",
+    "path": "Lua.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Luau",
+    "path": "Luau.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Magento",
+    "path": "Magento.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Maven",
+    "path": "Maven.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Mercury",
+    "path": "Mercury.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "MetaProgrammingSystem",
+    "path": "MetaProgrammingSystem.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ModelSim",
+    "path": "ModelSim.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Modelica",
+    "path": "Modelica.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "MoonBit",
+    "path": "MoonBit.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Nanoc",
+    "path": "Nanoc.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Nestjs",
+    "path": "Nestjs.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Nextjs",
+    "path": "Nextjs.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Nim",
+    "path": "Nim.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Nix",
+    "path": "Nix.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Node",
+    "path": "Node.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "OCaml",
+    "path": "OCaml.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Objective-C",
+    "path": "Objective-C.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Opa",
+    "path": "Opa.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "OpenCart",
+    "path": "OpenCart.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "OracleForms",
+    "path": "OracleForms.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Packer",
+    "path": "Packer.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Perl",
+    "path": "Perl.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Phalcon",
+    "path": "Phalcon.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "PlayFramework",
+    "path": "PlayFramework.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Plone",
+    "path": "Plone.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Prestashop",
+    "path": "Prestashop.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Processing",
+    "path": "Processing.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "PureScript",
+    "path": "PureScript.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Python",
+    "path": "Python.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Qooxdoo",
+    "path": "Qooxdoo.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Qt",
+    "path": "Qt.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "R",
+    "path": "R.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ROS",
+    "path": "ROS.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Racket",
+    "path": "Racket.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Rails",
+    "path": "Rails.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Raku",
+    "path": "Raku.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ReScript",
+    "path": "ReScript.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "RhodesRhomobile",
+    "path": "RhodesRhomobile.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Ruby",
+    "path": "Ruby.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Rust",
+    "path": "Rust.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "SCons",
+    "path": "SCons.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "SSDT-sqlproj",
+    "path": "SSDT-sqlproj.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Salesforce",
+    "path": "Salesforce.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Sass",
+    "path": "Sass.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Scala",
+    "path": "Scala.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Scheme",
+    "path": "Scheme.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Scrivener",
+    "path": "Scrivener.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Sdcc",
+    "path": "Sdcc.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "SeamGen",
+    "path": "SeamGen.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "SketchUp",
+    "path": "SketchUp.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Smalltalk",
+    "path": "Smalltalk.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "SolidWorks",
+    "path": "SolidWorks.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Solidity-Remix",
+    "path": "Solidity-Remix.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Stella",
+    "path": "Stella.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "SugarCRM",
+    "path": "SugarCRM.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Swift",
+    "path": "Swift.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Symfony",
+    "path": "Symfony.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "SymphonyCMS",
+    "path": "SymphonyCMS.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "TeX",
+    "path": "TeX.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Terraform",
+    "path": "Terraform.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "TestComplete",
+    "path": "TestComplete.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Textpattern",
+    "path": "Textpattern.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "TurboGears2",
+    "path": "TurboGears2.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "TwinCAT3",
+    "path": "TwinCAT3.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Typo3",
+    "path": "Typo3.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Unity",
+    "path": "Unity.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "UnrealEngine",
+    "path": "UnrealEngine.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "VBA",
+    "path": "VBA.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "VVVV",
+    "path": "VVVV.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "VisualStudio",
+    "path": "VisualStudio.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Waf",
+    "path": "Waf.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "WordPress",
+    "path": "WordPress.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Xojo",
+    "path": "Xojo.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Yeoman",
+    "path": "Yeoman.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Yii",
+    "path": "Yii.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "ZendFramework",
+    "path": "ZendFramework.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Zephir",
+    "path": "Zephir.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "Zig",
+    "path": "Zig.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "bun",
+    "path": "bun.gitignore",
+    "category": "root"
+  },
+  {
+    "name": "CDK",
+    "path": "community/AWS/CDK.gitignore",
+    "category": "community",
+    "subCategory": "AWS"
+  },
+  {
+    "name": "SAM",
+    "path": "community/AWS/SAM.gitignore",
+    "category": "community",
+    "subCategory": "AWS"
+  },
+  {
+    "name": "Alteryx",
+    "path": "community/Alteryx.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "AltiumDesigner",
+    "path": "community/AltiumDesigner.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "AutoIt",
+    "path": "community/AutoIt.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "AutomationStudio",
+    "path": "community/AutomationStudio.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "B4X",
+    "path": "community/B4X.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Bazel",
+    "path": "community/Bazel.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Beef",
+    "path": "community/Beef.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "ColdBox",
+    "path": "community/BoxLang/ColdBox.gitignore",
+    "category": "community",
+    "subCategory": "BoxLang"
+  },
+  {
+    "name": "ColdBox",
+    "path": "community/CFML/ColdBox.gitignore",
+    "category": "community",
+    "subCategory": "CFML"
+  },
+  {
+    "name": "InforCMS",
+    "path": "community/DotNet/InforCMS.gitignore",
+    "category": "community",
+    "subCategory": "DotNet"
+  },
+  {
+    "name": "Kentico",
+    "path": "community/DotNet/Kentico.gitignore",
+    "category": "community",
+    "subCategory": "DotNet"
+  },
+  {
+    "name": "Umbraco",
+    "path": "community/DotNet/Umbraco.gitignore",
+    "category": "community",
+    "subCategory": "DotNet"
+  },
+  {
+    "name": "core",
+    "path": "community/DotNet/core.gitignore",
+    "category": "community",
+    "subCategory": "DotNet"
+  },
+  {
+    "name": "Dotter",
+    "path": "community/Dotter.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Phoenix",
+    "path": "community/Elixir/Phoenix.gitignore",
+    "category": "community",
+    "subCategory": "Elixir"
+  },
+  {
+    "name": "Exercism",
+    "path": "community/Exercism.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "FreeCAD",
+    "path": "community/FreeCAD.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "GNOMEShellExtension",
+    "path": "community/GNOME/GNOMEShellExtension.gitignore",
+    "category": "community",
+    "subCategory": "GNOME"
+  },
+  {
+    "name": "Go.AllowList",
+    "path": "community/Golang/Go.AllowList.gitignore",
+    "category": "community",
+    "subCategory": "Golang"
+  },
+  {
+    "name": "Hugo",
+    "path": "community/Golang/Hugo.gitignore",
+    "category": "community",
+    "subCategory": "Golang"
+  },
+  {
+    "name": "Gretl",
+    "path": "community/Gretl.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "HOL",
+    "path": "community/HOL.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Hexo",
+    "path": "community/Hexo.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "JBoss4",
+    "path": "community/Java/JBoss4.gitignore",
+    "category": "community",
+    "subCategory": "Java"
+  },
+  {
+    "name": "JBoss6",
+    "path": "community/Java/JBoss6.gitignore",
+    "category": "community",
+    "subCategory": "Java"
+  },
+  {
+    "name": "Cordova",
+    "path": "community/JavaScript/Cordova.gitignore",
+    "category": "community",
+    "subCategory": "JavaScript"
+  },
+  {
+    "name": "Expo",
+    "path": "community/JavaScript/Expo.gitignore",
+    "category": "community",
+    "subCategory": "JavaScript"
+  },
+  {
+    "name": "Meteor",
+    "path": "community/JavaScript/Meteor.gitignore",
+    "category": "community",
+    "subCategory": "JavaScript"
+  },
+  {
+    "name": "NWjs",
+    "path": "community/JavaScript/NWjs.gitignore",
+    "category": "community",
+    "subCategory": "JavaScript"
+  },
+  {
+    "name": "Vue",
+    "path": "community/JavaScript/Vue.gitignore",
+    "category": "community",
+    "subCategory": "JavaScript"
+  },
+  {
+    "name": "LensStudio",
+    "path": "community/LensStudio.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Flatpak",
+    "path": "community/Linux/Flatpak.gitignore",
+    "category": "community",
+    "subCategory": "Linux"
+  },
+  {
+    "name": "Snap",
+    "path": "community/Linux/Snap.gitignore",
+    "category": "community",
+    "subCategory": "Linux"
+  },
+  {
+    "name": "Logtalk",
+    "path": "community/Logtalk.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "MetaTrader5",
+    "path": "community/MetaTrader5.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Move",
+    "path": "community/Move.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "NasaSpecsIntact",
+    "path": "community/NasaSpecsIntact.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "NotesAndCoreConfiguration",
+    "path": "community/Obsidian/NotesAndCoreConfiguration.gitignore",
+    "category": "community",
+    "subCategory": "Obsidian"
+  },
+  {
+    "name": "NotesAndExtendedConfiguration",
+    "path": "community/Obsidian/NotesAndExtendedConfiguration.gitignore",
+    "category": "community",
+    "subCategory": "Obsidian"
+  },
+  {
+    "name": "NotesOnly",
+    "path": "community/Obsidian/NotesOnly.gitignore",
+    "category": "community",
+    "subCategory": "Obsidian"
+  },
+  {
+    "name": "OpenSSL",
+    "path": "community/OpenSSL.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "OpenTofu",
+    "path": "community/OpenTofu.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Bitrix",
+    "path": "community/PHP/Bitrix.gitignore",
+    "category": "community",
+    "subCategory": "PHP"
+  },
+  {
+    "name": "CodeSniffer",
+    "path": "community/PHP/CodeSniffer.gitignore",
+    "category": "community",
+    "subCategory": "PHP"
+  },
+  {
+    "name": "Drupal7",
+    "path": "community/PHP/Drupal7.gitignore",
+    "category": "community",
+    "subCategory": "PHP"
+  },
+  {
+    "name": "Jigsaw",
+    "path": "community/PHP/Jigsaw.gitignore",
+    "category": "community",
+    "subCategory": "PHP"
+  },
+  {
+    "name": "Magento1",
+    "path": "community/PHP/Magento1.gitignore",
+    "category": "community",
+    "subCategory": "PHP"
+  },
+  {
+    "name": "Magento2",
+    "path": "community/PHP/Magento2.gitignore",
+    "category": "community",
+    "subCategory": "PHP"
+  },
+  {
+    "name": "Pimcore",
+    "path": "community/PHP/Pimcore.gitignore",
+    "category": "community",
+    "subCategory": "PHP"
+  },
+  {
+    "name": "ThinkPHP",
+    "path": "community/PHP/ThinkPHP.gitignore",
+    "category": "community",
+    "subCategory": "PHP"
+  },
+  {
+    "name": "Puppet",
+    "path": "community/Puppet.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "JupyterNotebooks",
+    "path": "community/Python/JupyterNotebooks.gitignore",
+    "category": "community",
+    "subCategory": "Python"
+  },
+  {
+    "name": "Nikola",
+    "path": "community/Python/Nikola.gitignore",
+    "category": "community",
+    "subCategory": "Python"
+  },
+  {
+    "name": "ROS2",
+    "path": "community/ROS2.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Racket",
+    "path": "community/Racket.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Red",
+    "path": "community/Red.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "SPFx",
+    "path": "community/SPFx.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Splunk",
+    "path": "community/Splunk.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Strapi",
+    "path": "community/Strapi.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Tauri",
+    "path": "community/Tauri.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Terragrunt",
+    "path": "community/Terragrunt.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Toit",
+    "path": "community/Toit.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "UTAU",
+    "path": "community/UTAU.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "UiPath",
+    "path": "community/UiPath.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "V",
+    "path": "community/V.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "Xilinx",
+    "path": "community/Xilinx.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "AtmelStudio",
+    "path": "community/embedded/AtmelStudio.gitignore",
+    "category": "community",
+    "subCategory": "embedded"
+  },
+  {
+    "name": "IAR_EWARM",
+    "path": "community/embedded/IAR_EWARM.gitignore",
+    "category": "community",
+    "subCategory": "embedded"
+  },
+  {
+    "name": "Microchip_MPLAB_X_IDE",
+    "path": "community/embedded/Microchip_MPLAB_X_IDE.gitignore",
+    "category": "community",
+    "subCategory": "embedded"
+  },
+  {
+    "name": "esp-idf",
+    "path": "community/embedded/esp-idf.gitignore",
+    "category": "community",
+    "subCategory": "embedded"
+  },
+  {
+    "name": "uVision",
+    "path": "community/embedded/uVision.gitignore",
+    "category": "community",
+    "subCategory": "embedded"
+  },
+  {
+    "name": "libogc",
+    "path": "community/libogc.gitignore",
+    "category": "community"
+  },
+  {
+    "name": "ecu.test",
+    "path": "ecu.test.gitignore",
+    "category": "root"
+  }
+]
